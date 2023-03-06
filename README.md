@@ -42,7 +42,7 @@ Bước 5 :
     
 Bước 6 :
 
-    Ctrl + K để xóa dòng secrets hiện tại, copy secrets ở node  dán vào.
+    Ctrl + K để xóa dòng secrets hiện tại, copy {"publicKey":"","secretKey":""} ở node VPS cũ dán vào.
     
     Ctrl + X
     
