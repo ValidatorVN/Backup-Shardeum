@@ -8,7 +8,7 @@ Chạy lệnh này để lấy key nhé:
     
     docker exec shardeum-dashboard cat cli/build/secrets.json
     
-Lưu lại đoạn mã này để sau này Restore.
+Lưu lại đoạn mã {"publicKey":"","secretKey":""} này để sau này Restore.
 
 # Restore
 
@@ -26,7 +26,7 @@ Nếu node đã start trước đó thì vào ./shell.sh chạy lệnh operator-
 
     docker exec shardeum-dashboard cat cli/build/secrets.json
     
-=> Copy cả dòng này : {"publicKey":"","secretKey":""}
+-> không lưu lại đoạn mã này, mục đích để tạo ra file secrets.json để lấy đoạn mã của node cũ chép vào
 
 Bước 3 :
 
@@ -42,7 +42,7 @@ Bước 5 :
     
 Bước 6 :
 
-    Ctrl + K để xóa dòng secrets hiện tại, copy secrets vừa copy ở bước 2 dán vào.
+    Ctrl + K để xóa dòng secrets hiện tại, copy secrets ở node  dán vào.
     
     Ctrl + X
     
