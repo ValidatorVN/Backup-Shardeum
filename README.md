@@ -1,4 +1,16 @@
-# Backup-Shardeum
+#Backup & Restore Shardeum
+
+#Backup
+
+Dành cho bạn nào đang chạy node Shardeum, trường hợp bí bách sắp hết hạn VPS. Mà không lấy được Key của Validator, hiện tại dự án Shardeum họ chưa share, nhưng mà nhìn AE đang vướng chỗ này.
+
+Chạy lệnh này để lấy key nhé:
+    
+    docker exec shardeum-dashboard cat cli/build/secrets.json
+    
+Lưu lại đoạn mã này để sau này Restore.
+
+#Restore
 
 Lưu ý dùng Mobaxterm hoặc Termius để dễ copy paste trong nano.
 
